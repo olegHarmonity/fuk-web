@@ -1,0 +1,111 @@
+.add-department-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--mainColor);
+  font-size: 16px;
+  display: block;
+}
+.department-icon {
+  margin-right: 10px;
+}
+
+.add-position-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--secondaryColor);
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.add-position-button:hover {
+  cursor: pointer;
+}
+
+.add-department-button:hover {
+  cursor: pointer;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 400px;
+}
+
+.department-title-input {
+  font-size: 20px;
+  color: var(--mainColor);
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--mainColor);
+  font-weight: 600;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.odsek-title-input {
+  font-size: 16px;
+  color: var(--mainColor);
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--mainColor);
+  font-weight: 600;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.edit-department-buttons-block {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  color: var(--mainColor);
+}
+
+.edit-department-buttons-block button {
+  background: transparent;
+  outline: none;
+  border: none;
+  color: var(--mainColor);
+  margin-left: 5px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.edit-department-buttons-block button img {
+  width: 70%;
+  display: block;
+}
+
+.add-odsek-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: var(--secondaryColor);
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.add-odsek-button:hover {
+  cursor: pointer;
+}
+
+.plus-circle-icon {
+  margin-right: 3px;
+}
+
+.add-service-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--secondaryColor);
+  font-size: 14px;
+  display: block;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+.add-service-button:hover {
+  cursor: pointer;
+}

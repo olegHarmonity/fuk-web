@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+.page {
+  padding: 2em 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.page-title {
+  color: var(--mainColor);
+  font-size: 32px;
+  margin-bottom: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page-description {
+  color: var(--mainColor);
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page-main {
+  width: 100%;
+  display: flex;
+  padding: 2em 0;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.list-wrapper {
+  margin-right: 4em;
+}
+
+.list-title {
+  color: var(--mainColor);
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.add-to-list-block {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+}
+.add-to-list-input-wrapper {
+  position: relative;
+  width: 400px;
+}
+.add-to-list-input {
+  box-sizing: border-box;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid var(--secondaryColor);
+  color: var(--mainColor);
+  font-size: 12px;
+  margin-bottom: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.add-to-list-input:focus {
+  border-bottom: 1px solid var(--secondaryColor);
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-list-button {
+  color: var(--secondaryColor);
+  font-size: 12px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.add-list-button:hover {
+  cursor: pointer;
+}
+
+.positions-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.strukcture-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.odseci-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.services-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.edit-buttons-block {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  color: var(--mainColor);
+}
+
+.edit-buttons-block button {
+  background: transparent;
+  outline: none;
+  border: none;
+  color: var(--mainColor);
+  margin-left: 5px;
+  width: 20px;
+}
+
+.edit-buttons-block button img {
+  display: block;
+  width: 70%;
+}
+
+.edit-buttons-block button:hover {
+  cursor: pointer;
 }

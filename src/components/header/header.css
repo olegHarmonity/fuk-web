@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--mainColor);
+  padding: 1em 0;
+  border-bottom: 1px solid var(--mainColor);
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--mainColor);
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-item {
+  font-size: 16px;
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 1em;
+}
+
+.navigation-item:hover {
+  cursor: pointer;
+  color: var(--secondaryColor);
+  transition: 0.1s linear;
+}

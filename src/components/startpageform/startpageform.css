@@ -1,0 +1,53 @@
+.startpage-form-wrapper {
+  width: 30%;
+}
+.startpage-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.textfield {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid var(--mainColor);
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  padding: 10px 20px;
+}
+
+.form-field-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-field-label {
+  display: block;
+  color: var(--mainColor);
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.startpage-form-button {
+  display: block;
+  width: 100px;
+  outline: none;
+  background-color: var(--mainColor);
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.show-password-button {
+  position: absolute;
+  right: 5px;
+  top: 40%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
